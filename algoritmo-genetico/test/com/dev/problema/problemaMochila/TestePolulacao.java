@@ -5,13 +5,13 @@ import java.util.Arrays;
 public class TestePolulacao {
 
 	public static void main(String[] args) {
-		
+
 		Populacao populacao1 = new Populacao();
-		
+
 		populacao1.inicializandoPopulacao();
-		
+
 		populacao1.calcularFitnessPorIndividuoDaPopulacao();
-		
+
 		System.out.println("População -> " + Arrays.toString(populacao1.getIndividuos()));
 		System.out.println("--------------");
 		System.out.println("Fitness da população -> " + populacao1.imprimirFitnessDaPopulacao());
@@ -37,5 +37,5 @@ public class TestePolulacao {
 		System.out.println("Valor de fitness do melhor indivíduo -> " + populacao1.getValorDeFitnessDoMelhorIndividuo());
 		System.out.println("--------------");
 	}
-	
+
 }
